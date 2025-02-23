@@ -26,7 +26,7 @@ Training the model:
 ```bash
 bash
 python main.py --mode train \
---data_path data_uvw.mat \
+--data_path path/to/your_data.mat \
 --save_path results \
 --N_train 19700 \
 --nIter 500000
@@ -36,8 +36,8 @@ Testing the model:
 ```bash
 bash
 python main.py --mode test \
---data_path data_uvw.mat \
---model_path results/PINN_500000.pth \
+--data_path path/to/your_data.mat \
+--model_path path/to/your_ckpt.pth \
 --plane_type XZ \
 --fixed_val 330 \
 --test_time 100
