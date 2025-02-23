@@ -44,19 +44,7 @@ python main.py --mode test \
 
 ## Results
 
-### Velocity Field Prediction
-
-Below shows the comparison between predicted and true velocity fields on the XY plane:
-
-![Velocity Field Comparison](results/X-Y_filed.png)
-
-### Error Distribution
-
-The absolute error distribution between predicted and true values:
-
-<img src="results/X-Y_diff.png" alt="Error Distribution" style="zoom: 67%;" /> <img src="results/X-Y.png" alt="Err" style="zoom: 67%;" />
-
-
+- [ ] TODO
 
 ## Model Architecture
 
