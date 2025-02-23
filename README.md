@@ -43,7 +43,7 @@ python main.py --mode test \
 
 
 ## Results
-- [] TODO
+- [ ] TODO
 
 
 
