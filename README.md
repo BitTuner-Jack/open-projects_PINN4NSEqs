@@ -1,4 +1,4 @@
-# Physics-Informed Neural Networks for Navier-Stokes Equations （Wind-Filed Reconstruction）
+# Physics-Informed Neural Networks for Navier-Stokes Equations
 
 This project implements a Physics-Informed Neural Network (PINN) to solve the 3D Navier-Stokes equations. The model combines data observations with physical constraints to predict fluid dynamics.
 
@@ -11,20 +11,21 @@ This project implements a Physics-Informed Neural Network (PINN) to solve the 3D
 - Multiple visualization options for results (XY, XZ, YZ planes)
 
 ## Project Structure 
+```bash
 ├── dataset.py # Data loading and preprocessing
 ├── models.py # PINN model implementation
 ├── utils.py # Utility functions
 ├── visualization.py # Visualization functions
 ├── main.py # Training and testing scripts
 └── results/ # Training results and visualizations
+```
 
 ## Usage
 
 Training the model:
 ```bash
-bash
 python main.py --mode train \
---data_path data_uvw.mat \
+--data_path path/to/your_data.mat \
 --save_path results \
 --N_train 19700 \
 --nIter 500000
@@ -32,10 +33,9 @@ python main.py --mode train \
 
 Testing the model:
 ```bash
-bash
 python main.py --mode test \
---data_path data_uvw.mat \
---model_path results/PINN_500000.pth \
+--data_path path/to/your_data.mat \
+--model_path path/to/your_ckpt.pth \
 --plane_type XZ \
 --fixed_val 330 \
 --test_time 100
@@ -43,7 +43,6 @@ python main.py --mode test \
 
 
 ## Results
-
 - [ ] TODO
 
 ## Model Architecture
