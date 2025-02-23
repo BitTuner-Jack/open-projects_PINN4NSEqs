@@ -11,12 +11,14 @@ This project implements a Physics-Informed Neural Network (PINN) to solve the 3D
 - Multiple visualization options for results (XY, XZ, YZ planes)
 
 ## Project Structure 
+```bash
 ├── dataset.py # Data loading and preprocessing
 ├── models.py # PINN model implementation
 ├── utils.py # Utility functions
 ├── visualization.py # Visualization functions
 ├── main.py # Training and testing scripts
 └── results/ # Training results and visualizations
+```
 
 ## Usage
 
