@@ -24,7 +24,6 @@ This project implements a Physics-Informed Neural Network (PINN) to solve the 3D
 
 Training the model:
 ```bash
-bash
 python main.py --mode train \
 --data_path path/to/your_data.mat \
 --save_path results \
@@ -34,7 +33,6 @@ python main.py --mode train \
 
 Testing the model:
 ```bash
-bash
 python main.py --mode test \
 --data_path path/to/your_data.mat \
 --model_path path/to/your_ckpt.pth \
