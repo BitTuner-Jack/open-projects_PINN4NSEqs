@@ -1,4 +1,4 @@
-# Physics-Informed Neural Networks for Navier-Stokes Equations （Wind-Filed Reconstruction）
+# Physics-Informed Neural Networks for Navier-Stokes Equations
 
 This project implements a Physics-Informed Neural Network (PINN) to solve the 3D Navier-Stokes equations. The model combines data observations with physical constraints to predict fluid dynamics.
 
